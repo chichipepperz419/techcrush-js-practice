@@ -7,6 +7,7 @@
 //• Below 40   →  'F'
 
 //Test it with: 85, 62, 45, and 30.
+
 function gradeScore(score){
     if (score >= 70 && score <= 100 ){
         console.log("A")

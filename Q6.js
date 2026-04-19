@@ -7,6 +7,7 @@ let myProfile = {
     country : "Nigeria",
     hobby : "Coding"
 }
+
 function displayProfile (person){
     console.log(`These are my details: my name is  ${person.name}, i am ${person.age} years old, i am from ${person.country}, and my best hobby is ${person.hobby}.`);
 }

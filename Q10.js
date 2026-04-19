@@ -7,6 +7,7 @@ function summarizeStudent(students) {
     return `${student.name} scored ${student.score} — Grade: ${gradeScore(student.score)}`;
   });
 }
+
 function gradeScore(score) {
   if (score >= 70) return 'A';
   else if (score >= 60) return 'B';

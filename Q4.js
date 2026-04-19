@@ -7,6 +7,5 @@
 
 fruits.shift("mango");
 
-
 console.log(fruits);
 console.log(fruits.length);

@@ -12,4 +12,5 @@ function formatName(firstName, lastName) {
   
   return `${formattedLast}, ${formattedFirst}`;
 }
+
 console.log(formatName('  utibe  ', '  ntuen  '));
