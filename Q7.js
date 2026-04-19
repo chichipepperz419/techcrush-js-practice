@@ -9,7 +9,7 @@ function formatName(firstName, lastName) {
     firstName.charAt(0).toUpperCase() + firstName.slice(1).toLowerCase();
 
   let formattedLast = lastName.toUpperCase();
-
+  
   return `${formattedLast}, ${formattedFirst}`;
 }
 console.log(formatName('  utibe  ', '  ntuen  '));
